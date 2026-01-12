@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoic Wisdoms - Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f8f6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #c8a870 0%, #a08050 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        nav {
+            background: white;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        nav a {
+            color: #666;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #c8a870;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #c8a870;
+        }
+
+        h3 {
+            color: #444;
+            font-size: 1.2rem;
+            margin: 25px 0 12px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            margin: 15px 0 15px 25px;
+            color: #555;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #f9f6f0;
+            border-left: 4px solid #c8a870;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+        .faq-answer {
+            color: #666;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #f9f6f0 0%, #f0ebe0 100%);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-box h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .contact-email {
+            display: inline-block;
+            background: #c8a870;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+            transition: background 0.2s;
+        }
+
+        .contact-email:hover {
+            background: #a08050;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #c8a870;
+            text-decoration: none;
+        }
+
+        .last-updated {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 40px 20px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 25px;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            nav ul {
+                gap: 8px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>✨ Stoic Wisdoms</h1>
+        <p>Support & Privacy Information</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#data">Data Usage</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Privacy Policy -->
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p class="last-updated">Last Updated: January 2026</p>
+
+            <p>Stoic Wisdoms ("we", "our", or "the app") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.</p>
+
+            <h3>Information We Collect</h3>
+            <p>We collect minimal information to provide you with the best experience:</p>
+            <ul>
+                <li><strong>Email & Name (Optional)</strong> — If you choose to provide them during onboarding for our newsletter and updates</li>
+                <li><strong>App Usage Data</strong> — Anonymous analytics to understand how features are used and improve the app</li>
+                <li><strong>Subscription Status</strong> — Managed securely through Apple's StoreKit (we never see your payment details)</li>
+            </ul>
+
+            <h3>Information Stored Locally</h3>
+            <p>The following data is stored only on your device and is never transmitted to our servers:</p>
+            <ul>
+                <li>Your reflection scores and streak data</li>
+                <li>Favorite quotes</li>
+                <li>App preferences and settings</li>
+                <li>Reminder schedules</li>
+            </ul>
+
+            <h3>How We Use Your Information</h3>
+            <ul>
+                <li>To send you weekly wisdom emails and app updates (only if you opted in)</li>
+                <li>To improve app features based on anonymous usage patterns</li>
+                <li>To provide customer support when you contact us</li>
+            </ul>
+
+            <h3>Third-Party Services</h3>
+            <p>We use the following third-party services:</p>
+            <ul>
+                <li><strong>Apple StoreKit</strong> — For processing subscriptions (Apple handles all payment data)</li>
+                <li><strong>Supabase</strong> — For securely storing email addresses (if provided)</li>
+            </ul>
+
+            <h3>Data Sharing</h3>
+            <div class="highlight">
+                <strong>We do not sell, trade, or share your personal information with third parties for marketing purposes. Ever.</strong>
+            </div>
+
+            <h3>Data Retention</h3>
+            <p>If you provide your email, we retain it until you unsubscribe or request deletion. Local app data is retained until you delete the app.</p>
+
+            <h3>Your Rights</h3>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access the personal data we hold about you</li>
+                <li>Request deletion of your data</li>
+                <li>Unsubscribe from emails at any time</li>
+                <li>Delete all local data by removing the app</li>
+            </ul>
+
+            <h3>Children's Privacy</h3>
+            <p>Stoic Wisdoms is suitable for all ages (rated 4+). We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.</p>
+
+            <h3>Changes to This Policy</h3>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes through the app or via email.</p>
+        </section>
+
+        <!-- Data Usage -->
+        <section id="data">
+            <h2>Data Usage Policy</h2>
+
+            <h3>What Data We Collect</h3>
+            
+            <div class="highlight">
+                <strong>We believe in minimal data collection.</strong> We only collect what's necessary to provide you with a great experience.
+            </div>
+
+            <h3>Email & Name</h3>
+            <p><strong>When:</strong> Only if you choose to enter them during onboarding</p>
+            <p><strong>Why:</strong> To send you weekly Stoic wisdom, exclusive content, and important app updates</p>
+            <p><strong>Storage:</strong> Securely stored in Supabase (encrypted)</p>
+            <p><strong>Your Control:</strong> You can skip this step entirely, and unsubscribe anytime</p>
+
+            <h3>Anonymous Analytics</h3>
+            <p><strong>What:</strong> General usage patterns like which features are popular</p>
+            <p><strong>Why:</strong> To understand what's working and improve the app</p>
+            <p><strong>What we DON'T track:</strong> Your specific quotes, reflections, or any personal content</p>
+
+            <h3>Subscription Data</h3>
+            <p><strong>Handled by:</strong> Apple (via StoreKit)</p>
+            <p><strong>What we see:</strong> Only whether you have an active subscription</p>
+            <p><strong>What we DON'T see:</strong> Your payment method, billing address, or Apple ID</p>
+
+            <h3>Local Device Data</h3>
+            <p>This data never leaves your device:</p>
+            <ul>
+                <li>Your daily streak count</li>
+                <li>Reflection scores across different Stoic principles</li>
+                <li>Favorite quotes you've saved</li>
+                <li>Notification preferences</li>
+                <li>App settings</li>
+            </ul>
+
+            <h3>Data Security</h3>
+            <p>We take security seriously:</p>
+            <ul>
+                <li>All data transmission uses HTTPS encryption</li>
+                <li>Email data is stored in secure, encrypted databases</li>
+                <li>We regularly review our security practices</li>
+                <li>We never store passwords (Apple handles authentication)</li>
+            </ul>
+
+            <h3>Deleting Your Data</h3>
+            <p><strong>Local data:</strong> Delete the app to remove all local data</p>
+            <p><strong>Email/server data:</strong> Contact us at the email below and we'll delete your information within 48 hours</p>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <p class="faq-question">How does the 30-day free trial work?</p>
+                <p class="faq-answer">When you subscribe, you get full access to all features for 30 days completely free. You won't be charged until the trial ends. You can cancel anytime during the trial in your iPhone's Settings → Subscriptions.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I cancel my subscription?</p>
+                <p class="faq-answer">Go to iPhone Settings → tap your name at the top → Subscriptions → Stoic Wisdoms → Cancel Subscription. You'll keep access until the end of your current billing period.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Can I get a refund?</p>
+                <p class="faq-answer">Refunds are handled by Apple. Visit reportaproblem.apple.com, sign in with your Apple ID, and select the purchase you'd like to request a refund for.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I restore my purchase on a new device?</p>
+                <p class="faq-answer">Open Stoic Wisdoms on your new device, go to the subscription screen, and tap "Restore Purchases". Make sure you're signed in with the same Apple ID you used for the original purchase.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How many quotes are included?</p>
+                <p class="faq-answer">Stoic Wisdoms includes 249 authentic quotes from 13 Stoic philosophers including Marcus Aurelius, Seneca, Epictetus, and more. All quotes are sourced from original historical texts.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How does the Daily Reflection work?</p>
+                <p class="faq-answer">Each day you'll receive a quote with reflection questions. Swipe through the cards to engage with the wisdom. Your responses contribute to your streak and help track your growth across 8 Stoic principles.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Do the widgets update automatically?</p>
+                <p class="faq-answer">Yes! The widgets update daily at midnight with a new quote. You can add widgets by long-pressing your home screen → tap "+" → search for "Stoic Wisdoms".</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Is my data backed up?</p>
+                <p class="faq-answer">Your streak and reflection data is stored locally on your device. If you have iCloud backup enabled for your iPhone, this data will be included in your backup.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">Can I use the app offline?</p>
+                <p class="faq-answer">Yes! All 249 quotes are stored in the app. You can read quotes, do reflections, and use most features without an internet connection.</p>
+            </div>
+
+            <div class="faq-item">
+                <p class="faq-question">How do I unsubscribe from emails?</p>
+                <p class="faq-answer">Click the "Unsubscribe" link at the bottom of any email we send, or contact us directly and we'll remove you immediately.</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            
+            <p>Have a question, feedback, or need help? We'd love to hear from you!</p>
+
+            <div class="contact-box">
+                <h3>Get in Touch</h3>
+                <p>We typically respond within 24-48 hours</p>
+                <a href="mailto:hey@vista-cafe.co.za" class="contact-email">hey@vista-cafe.co.za</a>
+            </div>
+
+            <h3 style="margin-top: 30px;">Before Contacting Us</h3>
+            <p>For subscription issues (billing, refunds, cancellation), Apple handles these directly:</p>
+            <ul>
+                <li><strong>Cancel subscription:</strong> iPhone Settings → Your Name → Subscriptions</li>
+                <li><strong>Request refund:</strong> <a href="https://reportaproblem.apple.com" target="_blank" style="color: #c8a870;">reportaproblem.apple.com</a></li>
+                <li><strong>Apple Support:</strong> <a href="https://support.apple.com" target="_blank" style="color: #c8a870;">support.apple.com</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Stoic Wisdoms. All rights reserved.</p>
+        <p style="margin-top: 10px;">
+            <a href="#privacy">Privacy Policy</a> · 
+            <a href="#data">Data Usage</a> · 
+            <a href="#faq">FAQ</a> · 
+            <a href="#contact">Contact</a>
+        </p>
+        <p style="margin-top: 20px; font-style: italic;">"The happiness of your life depends upon the quality of your thoughts." — Marcus Aurelius</p>
+    </footer>
+</body>
+</html>
