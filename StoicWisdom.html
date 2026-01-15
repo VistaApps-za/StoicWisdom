@@ -185,36 +185,23 @@
         }
 
         @media (max-width: 600px) {
-            header {
-                padding: 40px 20px;
-            }
-
-            header h1 {
-                font-size: 2rem;
-            }
-
-            section {
-                padding: 25px;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-
-            nav ul {
-                gap: 8px 20px;
-            }
+            header { padding: 40px 20px; }
+            header h1 { font-size: 2rem; }
+            section { padding: 25px; }
+            h2 { font-size: 1.5rem; }
+            nav ul { gap: 8px 20px; }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>✨ Stoic Wisdoms</h1>
+        <h1>Stoic Wisdoms</h1>
         <p>Support & Privacy Information</p>
     </header>
 
     <nav>
         <ul>
+            <li><a href="#terms">Terms of Use</a></li>
             <li><a href="#privacy">Privacy Policy</a></li>
             <li><a href="#data">Data Usage</a></li>
             <li><a href="#faq">FAQ</a></li>
@@ -223,6 +210,57 @@
     </nav>
 
     <main>
+        <!-- Terms of Use -->
+        <section id="terms">
+            <h2>Terms of Use</h2>
+            <p class="last-updated">Last Updated: January 2026</p>
+
+            <p>Please read these Terms of Use ("Terms") carefully before using the Stoic Wisdoms mobile application ("App").</p>
+
+            <h3>Acceptance of Terms</h3>
+            <p>By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.</p>
+
+            <h3>Subscription Terms</h3>
+            <p>Stoic Wisdoms offers auto-renewable subscription plans:</p>
+            <ul>
+                <li><strong>Monthly Premium:</strong> $1.99 USD per month</li>
+                <li><strong>Yearly Premium:</strong> $19.99 USD per year</li>
+            </ul>
+            <p>Both plans include a 30-day free trial for new subscribers.</p>
+
+            <h3>Free Trial</h3>
+            <p>New subscribers are eligible for a 30-day free trial. You will not be charged during the trial period. If you do not cancel before the trial ends, your subscription will automatically convert to a paid subscription.</p>
+
+            <h3>Billing and Renewal</h3>
+            <ul>
+                <li>Payment will be charged to your Apple ID account at confirmation of purchase (after the free trial ends)</li>
+                <li>Subscriptions automatically renew unless auto-renew is turned off at least 24 hours before the end of the current period</li>
+                <li>Your account will be charged for renewal within 24 hours prior to the end of the current period</li>
+                <li>You can manage and cancel your subscriptions in your Account Settings on the App Store</li>
+            </ul>
+
+            <h3>Cancellation</h3>
+            <p>You may cancel your subscription at any time through your Apple ID Account Settings. Cancellation will take effect at the end of the current billing period. No refunds will be provided for partial subscription periods.</p>
+
+            <h3>License</h3>
+            <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial use.</p>
+
+            <h3>Intellectual Property</h3>
+            <p>The App and its original content, features, and functionality are owned by Stoic Wisdoms and are protected by international copyright, trademark, and other intellectual property laws. The Stoic quotes included in the App are in the public domain.</p>
+
+            <h3>Disclaimer</h3>
+            <p>The App is provided on an "AS IS" and "AS AVAILABLE" basis. We make no warranties regarding the App's operation or the information included therein.</p>
+
+            <h3>Limitation of Liability</h3>
+            <p>To the fullest extent permitted by law, Stoic Wisdoms shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of the App.</p>
+
+            <h3>Changes to Terms</h3>
+            <p>We reserve the right to modify these Terms at any time. Your continued use of the App after modifications constitutes acceptance of the updated Terms.</p>
+
+            <h3>Contact</h3>
+            <p>If you have any questions about these Terms, please contact us at hey@vista-cafe.co.za</p>
+        </section>
+
         <!-- Privacy Policy -->
         <section id="privacy">
             <h2>Privacy Policy</h2>
@@ -231,34 +269,18 @@
             <p>Stoic Wisdoms ("we", "our", or "the app") is committed to protecting your privacy. This policy explains how we collect, use, and safeguard your information.</p>
 
             <h3>Information We Collect</h3>
-            <p>We collect minimal information to provide you with the best experience:</p>
             <ul>
-                <li><strong>Email & Name (Optional)</strong> — If you choose to provide them during onboarding for our newsletter and updates</li>
-                <li><strong>App Usage Data</strong> — Anonymous analytics to understand how features are used and improve the app</li>
-                <li><strong>Subscription Status</strong> — Managed securely through Apple's StoreKit (we never see your payment details)</li>
+                <li><strong>Email & Name (Optional)</strong> - If you choose to provide them during onboarding</li>
+                <li><strong>App Usage Data</strong> - Anonymous analytics to improve the app</li>
+                <li><strong>Subscription Status</strong> - Managed through Apple's StoreKit</li>
             </ul>
 
             <h3>Information Stored Locally</h3>
-            <p>The following data is stored only on your device and is never transmitted to our servers:</p>
+            <p>The following is stored only on your device:</p>
             <ul>
                 <li>Your reflection scores and streak data</li>
                 <li>Favorite quotes</li>
                 <li>App preferences and settings</li>
-                <li>Reminder schedules</li>
-            </ul>
-
-            <h3>How We Use Your Information</h3>
-            <ul>
-                <li>To send you weekly wisdom emails and app updates (only if you opted in)</li>
-                <li>To improve app features based on anonymous usage patterns</li>
-                <li>To provide customer support when you contact us</li>
-            </ul>
-
-            <h3>Third-Party Services</h3>
-            <p>We use the following third-party services:</p>
-            <ul>
-                <li><strong>Apple StoreKit</strong> — For processing subscriptions (Apple handles all payment data)</li>
-                <li><strong>Supabase</strong> — For securely storing email addresses (if provided)</li>
             </ul>
 
             <h3>Data Sharing</h3>
@@ -266,73 +288,56 @@
                 <strong>We do not sell, trade, or share your personal information with third parties for marketing purposes. Ever.</strong>
             </div>
 
-            <h3>Data Retention</h3>
-            <p>If you provide your email, we retain it until you unsubscribe or request deletion. Local app data is retained until you delete the app.</p>
+            <h3>Third-Party Services</h3>
+            <ul>
+                <li><strong>Apple StoreKit</strong> - For processing subscriptions</li>
+                <li><strong>Supabase</strong> - For storing email addresses (if provided)</li>
+            </ul>
 
             <h3>Your Rights</h3>
-            <p>You have the right to:</p>
             <ul>
                 <li>Access the personal data we hold about you</li>
                 <li>Request deletion of your data</li>
                 <li>Unsubscribe from emails at any time</li>
-                <li>Delete all local data by removing the app</li>
             </ul>
 
             <h3>Children's Privacy</h3>
-            <p>Stoic Wisdoms is suitable for all ages (rated 4+). We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.</p>
+            <p>We do not knowingly collect personal information from children under 13.</p>
 
             <h3>Changes to This Policy</h3>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes through the app or via email.</p>
+            <p>We may update this Privacy Policy from time to time. We will notify you of significant changes through the app or via email.</p>
         </section>
 
         <!-- Data Usage -->
         <section id="data">
             <h2>Data Usage Policy</h2>
 
-            <h3>What Data We Collect</h3>
-            
             <div class="highlight">
-                <strong>We believe in minimal data collection.</strong> We only collect what's necessary to provide you with a great experience.
+                <strong>We believe in minimal data collection.</strong> We only collect what's necessary.
             </div>
 
             <h3>Email & Name</h3>
             <p><strong>When:</strong> Only if you choose to enter them during onboarding</p>
-            <p><strong>Why:</strong> To send you weekly Stoic wisdom, exclusive content, and important app updates</p>
-            <p><strong>Storage:</strong> Securely stored in Supabase (encrypted)</p>
-            <p><strong>Your Control:</strong> You can skip this step entirely, and unsubscribe anytime</p>
-
-            <h3>Anonymous Analytics</h3>
-            <p><strong>What:</strong> General usage patterns like which features are popular</p>
-            <p><strong>Why:</strong> To understand what's working and improve the app</p>
-            <p><strong>What we DON'T track:</strong> Your specific quotes, reflections, or any personal content</p>
+            <p><strong>Why:</strong> To send you weekly Stoic wisdom and app updates</p>
+            <p><strong>Your Control:</strong> You can skip this step entirely</p>
 
             <h3>Subscription Data</h3>
             <p><strong>Handled by:</strong> Apple (via StoreKit)</p>
             <p><strong>What we see:</strong> Only whether you have an active subscription</p>
-            <p><strong>What we DON'T see:</strong> Your payment method, billing address, or Apple ID</p>
+            <p><strong>What we DON'T see:</strong> Your payment method or Apple ID</p>
 
             <h3>Local Device Data</h3>
             <p>This data never leaves your device:</p>
             <ul>
                 <li>Your daily streak count</li>
-                <li>Reflection scores across different Stoic principles</li>
-                <li>Favorite quotes you've saved</li>
-                <li>Notification preferences</li>
+                <li>Reflection scores</li>
+                <li>Favorite quotes</li>
                 <li>App settings</li>
-            </ul>
-
-            <h3>Data Security</h3>
-            <p>We take security seriously:</p>
-            <ul>
-                <li>All data transmission uses HTTPS encryption</li>
-                <li>Email data is stored in secure, encrypted databases</li>
-                <li>We regularly review our security practices</li>
-                <li>We never store passwords (Apple handles authentication)</li>
             </ul>
 
             <h3>Deleting Your Data</h3>
             <p><strong>Local data:</strong> Delete the app to remove all local data</p>
-            <p><strong>Email/server data:</strong> Contact us at the email below and we'll delete your information within 48 hours</p>
+            <p><strong>Server data:</strong> Contact us and we'll delete your information within 48 hours</p>
         </section>
 
         <!-- FAQ -->
@@ -341,52 +346,32 @@
 
             <div class="faq-item">
                 <p class="faq-question">How does the 30-day free trial work?</p>
-                <p class="faq-answer">When you subscribe, you get full access to all features for 30 days completely free. You won't be charged until the trial ends. You can cancel anytime during the trial in your iPhone's Settings → Subscriptions.</p>
+                <p class="faq-answer">You get full access for 30 days free. You won't be charged until the trial ends. Cancel anytime in Settings → Subscriptions.</p>
             </div>
 
             <div class="faq-item">
                 <p class="faq-question">How do I cancel my subscription?</p>
-                <p class="faq-answer">Go to iPhone Settings → tap your name at the top → Subscriptions → Stoic Wisdoms → Cancel Subscription. You'll keep access until the end of your current billing period.</p>
+                <p class="faq-answer">Go to iPhone Settings → tap your name → Subscriptions → Stoic Wisdoms → Cancel Subscription.</p>
             </div>
 
             <div class="faq-item">
                 <p class="faq-question">Can I get a refund?</p>
-                <p class="faq-answer">Refunds are handled by Apple. Visit reportaproblem.apple.com, sign in with your Apple ID, and select the purchase you'd like to request a refund for.</p>
+                <p class="faq-answer">Refunds are handled by Apple at reportaproblem.apple.com</p>
             </div>
 
             <div class="faq-item">
-                <p class="faq-question">How do I restore my purchase on a new device?</p>
-                <p class="faq-answer">Open Stoic Wisdoms on your new device, go to the subscription screen, and tap "Restore Purchases". Make sure you're signed in with the same Apple ID you used for the original purchase.</p>
+                <p class="faq-question">How do I restore my purchase?</p>
+                <p class="faq-answer">Open the app, go to the subscription screen, and tap "Restore Purchases".</p>
             </div>
 
             <div class="faq-item">
                 <p class="faq-question">How many quotes are included?</p>
-                <p class="faq-answer">Stoic Wisdoms includes 249 authentic quotes from 13 Stoic philosophers including Marcus Aurelius, Seneca, Epictetus, and more. All quotes are sourced from original historical texts.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">How does the Daily Reflection work?</p>
-                <p class="faq-answer">Each day you'll receive a quote with reflection questions. Swipe through the cards to engage with the wisdom. Your responses contribute to your streak and help track your growth across 8 Stoic principles.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Do the widgets update automatically?</p>
-                <p class="faq-answer">Yes! The widgets update daily at midnight with a new quote. You can add widgets by long-pressing your home screen → tap "+" → search for "Stoic Wisdoms".</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">Is my data backed up?</p>
-                <p class="faq-answer">Your streak and reflection data is stored locally on your device. If you have iCloud backup enabled for your iPhone, this data will be included in your backup.</p>
+                <p class="faq-answer">249 authentic quotes from 13 Stoic philosophers.</p>
             </div>
 
             <div class="faq-item">
                 <p class="faq-question">Can I use the app offline?</p>
-                <p class="faq-answer">Yes! All 249 quotes are stored in the app. You can read quotes, do reflections, and use most features without an internet connection.</p>
-            </div>
-
-            <div class="faq-item">
-                <p class="faq-question">How do I unsubscribe from emails?</p>
-                <p class="faq-answer">Click the "Unsubscribe" link at the bottom of any email we send, or contact us directly and we'll remove you immediately.</p>
+                <p class="faq-answer">Yes! All quotes are stored in the app.</p>
             </div>
         </section>
 
@@ -394,7 +379,7 @@
         <section id="contact">
             <h2>Contact Us</h2>
             
-            <p>Have a question, feedback, or need help? We'd love to hear from you!</p>
+            <p>Have a question or need help?</p>
 
             <div class="contact-box">
                 <h3>Get in Touch</h3>
@@ -402,12 +387,11 @@
                 <a href="mailto:hey@vista-cafe.co.za" class="contact-email">hey@vista-cafe.co.za</a>
             </div>
 
-            <h3 style="margin-top: 30px;">Before Contacting Us</h3>
-            <p>For subscription issues (billing, refunds, cancellation), Apple handles these directly:</p>
+            <h3 style="margin-top: 30px;">Subscription Help</h3>
+            <p>For billing, refunds, or cancellation, Apple handles these directly:</p>
             <ul>
-                <li><strong>Cancel subscription:</strong> iPhone Settings → Your Name → Subscriptions</li>
-                <li><strong>Request refund:</strong> <a href="https://reportaproblem.apple.com" target="_blank" style="color: #c8a870;">reportaproblem.apple.com</a></li>
-                <li><strong>Apple Support:</strong> <a href="https://support.apple.com" target="_blank" style="color: #c8a870;">support.apple.com</a></li>
+                <li><strong>Cancel:</strong> iPhone Settings → Your Name → Subscriptions</li>
+                <li><strong>Refund:</strong> <a href="https://reportaproblem.apple.com" style="color: #c8a870;">reportaproblem.apple.com</a></li>
             </ul>
         </section>
     </main>
@@ -415,12 +399,11 @@
     <footer>
         <p>© 2026 Stoic Wisdoms. All rights reserved.</p>
         <p style="margin-top: 10px;">
+            <a href="#terms">Terms of Use</a> · 
             <a href="#privacy">Privacy Policy</a> · 
-            <a href="#data">Data Usage</a> · 
             <a href="#faq">FAQ</a> · 
             <a href="#contact">Contact</a>
         </p>
-        <p style="margin-top: 20px; font-style: italic;">"The happiness of your life depends upon the quality of your thoughts." — Marcus Aurelius</p>
     </footer>
 </body>
 </html>
